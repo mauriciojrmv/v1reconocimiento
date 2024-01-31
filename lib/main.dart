@@ -33,7 +33,7 @@ class _SpeechState extends State<Speech> {
   SpeechToText _speech = SpeechToText();
   FlutterTts flutterTts = FlutterTts();
   bool _isListening = false;
-  String _text = 'Presionar para hablar';
+  String _text = 'Presiona para hablar';
   double _confidence = 1.0;
 
   @override
